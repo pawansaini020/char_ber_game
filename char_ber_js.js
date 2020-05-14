@@ -109,26 +109,27 @@ function set(){
 	if(this.innerHTML !=EMPTY){
 		
 		console.log(this);
-		this.innerHTML=' ';
+		this.innerHTML=EMPTY;
 		moves -=1;
+	
 		
-		/*boxes.forEach(function (square){// learn
-			square.addEventListener('click',square.innerHTML=EMPTY);//clicking event is add
-		})*/
-		
-		return;
-	}
+		// return;
+	}else{
 	console.log(this);
 	this.innerHTML=turn;
-	moves +=1;
+	moves +=1;}
+
+
+
 	score[turn]+=this.identifier;
 	if(win(this)){
 		// alert('Winner: Player'+turn);
 		// startNewGame();
 		document.getElementById('turn').textContent='Player '+turn+' is the WINNER';
-		boxes.forEach(function (square){// learn
-		square.removeEventListener('click',set);//clicking event is removed
-	})
+
+	// 	boxes.forEach(function (square){
+	// 	square.removeEventListener('click',set);
+	// })
 		
 
 	}else if(moves==N_MAX_MOVES){
