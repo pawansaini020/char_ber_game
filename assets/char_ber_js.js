@@ -28,8 +28,8 @@ function init(){
 
 		for(var j=0;j<N_SIZE;j++){
 			var cell=document.createElement('td');
-			cell.setAttribute('height',3*110/(N_SIZE));
-			cell.setAttribute('width',3*120/(N_SIZE));
+			cell.setAttribute('height',3*165/(N_SIZE));
+			cell.setAttribute('width',3*170/(N_SIZE));
 			cell.setAttribute('align','center');
 			cell.setAttribute('valign','center');
 			cell.classList.add('col'+j,'row'+i);// learn
