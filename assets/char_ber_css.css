@@ -9,9 +9,30 @@
   margin: 0;
 }
 
+
+.gameHeader {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  
+  padding-left: 9%;
+  background-color: #7B68EE;
+  float: right;
+}
+
+.space {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  
+  padding-left: 9%;
+  background-color: #FFFFFF;
+  float: right;
+}
+
 .container {
   display: flex;
-  background: #fff;
+  background: 	#fff;
   align-content: center;
   justify-content: center;
   flex-direction: column;
@@ -50,9 +71,21 @@ body {
 }
 
 .restart{
-  /*padding-top: 40px;*/
+  /* padding-top: 40px;*/
   max-height: 10px;
   max-width: 20px;
   text-align: center;
-  padding-right:50px; 
+  padding-right:50px;
+}
+
+.buttonColor{
+	background-color: skyblue;
+}
+
+@media only screen and (min-width: 600px){
+  .gameHeader{
+    padding-top: 0px;
+  }
+  .container {
+  padding: 0%;}
 }
