@@ -83,7 +83,7 @@ body {
   font-weight: bold;
   max-height: 20px;
   max-width: 35px;
-  /*text-align: center;*/
+  text-align: center;
   /*float: right;*/
   padding-right:50px; 
 }
