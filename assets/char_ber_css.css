@@ -86,6 +86,8 @@ body {
   .gameHeader{
     padding-top: 0px;
   }
+  .space{
+    padding-top: 0px;}
   .container {
   padding: 0%;}
 }
