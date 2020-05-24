@@ -5,54 +5,32 @@
 -->
 
 
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>CHAR BER Game</title>
+    <title>CHAR BER GAME</title>
     <link rel="stylesheet" type="text/css" href="assets/char_ber_css.css" />
   </head>
   <body>
-
-    
-
-
     <div class="container">
 
+	<div class="Header">
+	<h3> CHAR &nbspBER &nbspGAME</h3>
+	</div>
+	
+	<div class="space"></div>
 
+      	<div id="tictactoe"></div>
+      	<div id="player" align="center">
+        	<span id="turn" align="">Player X</span>
       
+     		<div class="restart">
+      			<button class="buttonColor" onclick=startNewGame()>restart</button>
+    		</div>
 
-      
-
-      <div class="gameHeader">
-      <h3> CHAR &nbsp&nbsp&nbsp&nbsp BER &nbsp&nbsp&nbsp&nbsp Game</h3>
-    </div>
-
-<div class="change-box-panel">
-<div class="boxdown">
-      <button onclick=boxdown()><h2>BOXDOWN</h2></button>
-    </div>
-
-    <div class="boxup">
-      <button onclick=boxup()><h2>&nbsp BOXUP &nbsp   </h2></button>
-    </div>
-  </div>
-
-
-
-
-      <div id="tictactoe"></div>
-      <div id="player" align="center">
-        <span id="turn" align=""><h2>Player X</h2></span>
-      
-      <div class="restart">
-      <button onclick=startNewGame()><h2>  RESTART  </h2></button>
-    </div>
-    
-
-
-
-    </div>
+       	</div>
     </div>
     <script type="text/javascript" src="assets/char_ber_js.js"></script>
   </body>
