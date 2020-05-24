@@ -13,5 +13,5 @@ Tools and language:
 4. For win the game, you have to place your all 3 'X' or 'O' in a straight or diagnol line.
 
 You are welcome for Open Contribution or any queries.
-Github Id: @pawansaini020
-Email Id: ps21@iitbbs.ac.in
+1. Github Id: @pawansaini020
+2. Email Id: ps21@iitbbs.ac.in
